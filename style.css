@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(241, 217, 78, 0.726);
+    background-color:#f4dc24;
     gap: 40px;
     color: black;
 }
@@ -27,17 +27,23 @@ header img{
     height: auto;
 }
 
-.sessao1 {
-    padding: em;
-    background-image: url(Imagens/Simbolo\ JS.png);
-    background-attachment: fixed;
-    background-position: center;
+.line {
+    background-color: black;
+    height: 0.5em;
+}
 
+.sessao1 {
+    padding: 7em;
+    background-image: url(Imagens/sessao1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sessao1 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
+    margin-top: -49px;
 }
 
 .sessao1 p {
@@ -45,6 +51,8 @@ header img{
     text-align: justify;
     margin-top: 15px;
     line-height: 40px;
+   
+    font-weight: 900;
 }
 
 .sessao2 {
@@ -91,6 +99,14 @@ header img{
 .div-pai div {
     width: 22rem;
     height: 20rem;
+    box-shadow: 1px 2px 20px black;
+}
+
+.div-pai div:hover{
+    width: 22.1rem;
+    height: 21rem;
+    box-shadow: 1px 2px 22px gray;
+    transition: 0.9s;
 }
 
 .div-pai div h3 {
@@ -104,6 +120,7 @@ header img{
     margin: 0 auto;
     margin-bottom: 30px;
     background-color: black;
+    margin-top: 30px;
 }
 
 .div-pai div p {
@@ -111,8 +128,37 @@ header img{
     line-height: 22px;
     margin-top: 10px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
-.div-pai div a {
-    font-size: 1.2em;
+.div-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.div-btn a button{
+    padding: 0.5em;
+    width: 17em;
+    height: 3em;
+    border-radius: 20px;
+}
+
+.div-btn a button:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.603);
+    color: wheat;
+    transition: 0.9s;
+}
+
+footer {
+    padding: 2.9%;
+    font-size: 1.7em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f4dc24;
+    gap: 40px;
+    color: black;
 }
