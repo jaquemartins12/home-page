@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    padding: 2.9%;
+    font-size: 1.7em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(241, 217, 78, 0.726);
+    gap: 40px;
+    color: black;
+}
+
+header h1 {
+    margin-left: 140px;
+}
+
+header img{
+    width: 7em;
+    height: auto;
+}
+
+.sessao1 {
+    padding: em;
+    background-image: url(Imagens/Simbolo\ JS.png);
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.sessao1 h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.sessao1 p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 40px;
+}
+
+.sessao2 {
+    padding: 3em;
+    background: linear-gradient(180deg, rgba(85, 114, 122, 0.63) 29%, rgba(28, 27, 44, 0.83) 100%), url(Imagens/javascript\ \(código\).jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.sessao2 h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.sessao2 p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 65px;
+}
+
+.sessao3 {
+    padding: 10%;
+    background-image: url(Imagens/Simbolo\ JS.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sessao3 h2 {
+    font-size: 2.4em;
+    text-align: center;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
+
+.sessao3 .div-pai {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.div-pai div {
+    width: 22rem;
+    height: 20rem;
+}
+
+.div-pai div h3 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.linha {
+    width: 40%;
+    height: 0.1em;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+.div-pai div p {
+    font-size: 1.05em;
+    line-height: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.div-pai div a {
+    font-size: 1.2em;
+}
