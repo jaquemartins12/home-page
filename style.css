@@ -317,7 +317,7 @@ footer {
 
 
 
-@media screen and (max-width:991px) {
+@media screen and (min-width:481px) {
     header {
         padding: 2%;
         font-size: 0.5rem;
@@ -330,12 +330,12 @@ footer {
 
 
     header h1 {
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-left: 70px;
     }
 
     header img {
-        width: 10rem;
+        width: 4rem;
         height: auto;
         margin-right: 30px
     }
@@ -402,15 +402,15 @@ footer {
     }
 
     .div-pai div {
-        width: 55rem;
-        height: 15rem;
+        width: 24rem;
+        height: 19rem;
         box-shadow: 1px 2px 20px black;
         margin-bottom: 20px;
     }
 
     .div-pai div:hover {
-        width: 56rem;
-        height: 10rem;
+        width: 25rem;
+        height: 21rem;
         box-shadow: 1px 2px 22px gray;
         transition: 0.9s;
     }
@@ -457,7 +457,7 @@ footer {
     
     footer {
         padding: 3%;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -470,7 +470,7 @@ footer {
 
 
 
-
+/* 
 @media screen and (max-width:1010px) {
     header {
         padding: 2%;
@@ -620,4 +620,4 @@ footer {
         gap: 1.3rem;
         color: black;
     }
-}
+} */
