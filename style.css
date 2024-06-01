@@ -292,6 +292,7 @@ footer {
         height: 1.3rem;
         border-radius: 20px;
         font-size: 0.6rem;
+        color: black;
     }
     
     .div-btn a button:hover {
@@ -310,6 +311,313 @@ footer {
         align-items: center;
         background-color: #f4dc24;
         gap: 1rem;
+        color: black;
+    }
+}
+
+
+
+@media screen and (max-width:991px) {
+    header {
+        padding: 2%;
+        font-size: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f4dc24;
+        color: black;
+    }
+
+
+    header h1 {
+        font-size: 2rem;
+        margin-left: 70px;
+    }
+
+    header img {
+        width: 10rem;
+        height: auto;
+        margin-right: 30px
+    }
+
+    .line {
+        background-color: black;
+        height: 0.2rem;
+    }
+
+    .sessao1 {
+        padding: 4%;
+        background-image: url(Imagens/sessao1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sessao1 h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .sessao1 p {
+        font-size: 1.5rem;
+        text-align: justify;
+        font-weight: 500;
+    }
+
+    .sessao2 {
+        padding: 9%;
+        background: linear-gradient(180deg, rgba(85, 114, 122, 0.63) 29%, rgba(28, 27, 44, 0.83) 100%), url(Imagens/javascript\ \(código\).jpeg);
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .sessao2 h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .sessao2 p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .sessao3 {
+        padding: 8%;
+        background-image: url(Imagens/Simbolo\ JS.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sessao3 h2 {
+        font-size: 2.3rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .sessao3 .div-pai {
+        display: block;
+    }
+
+    .div-pai div {
+        width: 55rem;
+        height: 15rem;
+        box-shadow: 1px 2px 20px black;
+        margin-bottom: 20px;
+    }
+
+    .div-pai div:hover {
+        width: 56rem;
+        height: 10rem;
+        box-shadow: 1px 2px 22px gray;
+        transition: 0.9s;
+    }
+
+    .div-pai div h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .linha {
+        width: 50%;
+        height: 0.1em;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-color: black;
+        margin-top: 30px;
+    }
+
+    .div-pai div p {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    .div-btn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .div-btn a button {
+        padding: 0.2rem;
+        width: 15rem;
+        height: 2rem;
+        border-radius: 20px;
+        font-size: 1rem;
+        color: black;
+    }
+    
+    .div-btn a button:hover {
+        cursor: pointer;
+        background-color: rgba(128, 128, 128, 0.603);
+        color: wheat;
+        transition: 0.9s;
+    }
+    
+    footer {
+        padding: 3%;
+        font-size: 1.7rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4dc24;
+        gap: 1.3rem;
+        color: black;
+    }
+}
+
+
+
+
+@media screen and (max-width:1010px) {
+    header {
+        padding: 2%;
+        font-size: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f4dc24;
+        color: black;
+    }
+
+
+    header h1 {
+        font-size: 2rem;
+        margin-left: 70px;
+    }
+
+    header img {
+        width: 10rem;
+        height: auto;
+        margin-right: 30px
+    }
+
+    .line {
+        background-color: black;
+        height: 0.2rem;
+    }
+
+    .sessao1 {
+        padding: 4%;
+        background-image: url(Imagens/sessao1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sessao1 h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .sessao1 p {
+        font-size: 1.5rem;
+        text-align: justify;
+        font-weight: 500;
+    }
+
+    .sessao2 {
+        padding: 9%;
+        background: linear-gradient(180deg, rgba(85, 114, 122, 0.63) 29%, rgba(28, 27, 44, 0.83) 100%), url(Imagens/javascript\ \(código\).jpeg);
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .sessao2 h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .sessao2 p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .sessao3 {
+        padding: 8%;
+        background-image: url(Imagens/Simbolo\ JS.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sessao3 h2 {
+        font-size: 2.3rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .sessao3 .div-pai {
+        display: block;
+    }
+
+    .div-pai div {
+        width: 55rem;
+        height: 15rem;
+        box-shadow: 1px 2px 20px black;
+        margin-bottom: 20px;
+    }
+
+    .div-pai div:hover {
+        width: 56rem;
+        height: 10rem;
+        box-shadow: 1px 2px 22px gray;
+        transition: 0.9s;
+    }
+
+    .div-pai div h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .linha {
+        width: 50%;
+        height: 0.1em;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-color: black;
+        margin-top: 30px;
+    }
+
+    .div-pai div p {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    .div-btn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .div-btn a button {
+        padding: 0.2rem;
+        width: 15rem;
+        height: 2rem;
+        border-radius: 20px;
+        font-size: 1rem;
+        color: black;
+    }
+    
+    .div-btn a button:hover {
+        cursor: pointer;
+        background-color: rgba(128, 128, 128, 0.603);
+        color: wheat;
+        transition: 0.9s;
+    }
+    
+    footer {
+        padding: 3%;
+        font-size: 1.7rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4dc24;
+        gap: 1.3rem;
         color: black;
     }
 }
