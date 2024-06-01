@@ -14,7 +14,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color:#f4dc24;
-    gap: 40px;
+    gap: 2.5em;
     color: black;
 }
 
@@ -51,7 +51,6 @@ header img{
     text-align: justify;
     margin-top: 15px;
     line-height: 40px;
-   
     font-weight: 900;
 }
 
@@ -93,7 +92,7 @@ header img{
 .sessao3 .div-pai {
     display: flex;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 2.5em;
 }
 
 .div-pai div {
@@ -159,6 +158,6 @@ footer {
     justify-content: center;
     align-items: center;
     background-color:#f4dc24;
-    gap: 40px;
+    gap: 2.5em;
     color: black;
 }
