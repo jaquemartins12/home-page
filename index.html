@@ -7,6 +7,7 @@
     <title>JavaScript | Home Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Imagens/Simbolo JS.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -45,7 +46,6 @@
         <section class="sessao2">
             <h2>O QUE SÃO BIBLIOTECAS NO JAVASCRIPT...</h2>
             <p>
-                ChatGPT
                 Em JavaScript, as bibliotecas são conjuntos de códigos pré-escritos que fornecem funcionalidades
                 específicas
                 para facilitar o desenvolvimento de aplicativos. Elas são criadas por desenvolvedores e geralmente são
@@ -60,14 +60,15 @@
 
                 Além disso, as bibliotecas podem ajudar a lidar com inconsistências entre navegadores, fornecendo
                 abstrações
-                para garantir que o código funcione de maneira consistente em diferentes ambientes de navegador.</p>
+                para garantir que o código funcione de maneira consistente em diferentes ambientes de navegador.
+            </p>
         </section>
 
         <section class="sessao3">
             <h2>PRINCIPAIS BIBLIOTECAS E SUAS FUNÇÕES</h2>
 
             <div class="div-pai">
-                <div>
+                <div class="efeito-div">
                     <h3>JQuery</h3>
                     <p>
                         - Uma das bibliotecas JavaScript mais antigas e amplamente usadas. <br>
@@ -76,7 +77,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="efeito-div">
                     <h3>React</h3>
                     <p>
                         - Uma biblioteca para construção de interfaces de usuário (UI). <br>
@@ -85,7 +86,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="efeito-div">
                     <h3>Vue.Js</h3>
                     <p>
                         - Uma estrutura progressiva para construir interfaces de usuário. <br>
@@ -95,7 +96,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="efeito-div">
                     <h3>Angular</h3>
                     <p>
                         - Um framework completo para desenvolvimento web. <br>
@@ -104,7 +105,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="efeito-div">
                     <h3>Node.Js</h3>
                     <p>
                         - Permite executar JavaScript no servidor, tornando possível criar aplicativos web completos
@@ -117,7 +118,7 @@
             </div>
             <hr class="linha">
             <div class="div-pai">
-                <div>
+                <div class="efeito-div">
                     <h3>D3.Js</h3>
                     <p>
                         - Biblioteca para visualização de dados interativos. <br>
@@ -127,7 +128,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="efeito-div">
                     <h3>Babel</h3>
                     <p>
                         - Transpilador que converte código JavaScript moderno (ES6+) para versões mais antigas. <br>
@@ -135,7 +136,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="efeito-div">
                     <h3>Bootstrap</h3>
                     <p>
                         - Framework CSS que inclui componentes prontos para uso. <br>
@@ -144,7 +145,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="efeito-div">
                     <h3>Ember.Js</h3>
                     <p>
                         - Framework para desenvolvimento de aplicativos web escaláveis. <br>
@@ -154,7 +155,7 @@
                     </p>
                 </div>
 
-                <div>
+                <div class="efeito-div">
                     <h3>Glimmer.Js</h3>
                     <p>
                         - Framework para construção de interfaces de usuário otimizadas. <br>
@@ -174,9 +175,20 @@
             </div>
         </section>
     </main>
+
     <footer>
         <p> &copy; Todos os Direitos Reservados | Política De Privacidade </p>
     </footer>
+
+    <script>
+        window.revelar = ScrollReveal({ reset: true });
+
+
+        revelar.reveal('.efeito-div', {
+            duration: 3000,
+            distance: '150px'
+        });
+    </script>
 
 </body>
 
