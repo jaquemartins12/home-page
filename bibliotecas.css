@@ -90,3 +90,93 @@ footer div a:hover{
     color: rgba(43, 42, 42, 0.801);
     transition: 0.9s;
 }
+
+
+
+@media screen and (max-width:480px) {
+    
+header {
+    padding: 3%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4dc24;
+    color: black;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
+header img {
+    width: 6rem;
+    height: auto;
+}
+
+.line {
+    background-color: black;
+    height: 0.2em;
+}
+
+body {
+    background-color: #f4dc24e0;
+}
+
+.conteudo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linha-titulo {
+    width: 40%;
+    height: 0.1em;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: transparent;
+
+}
+
+.conteudo h2 {
+    font-size: 2rem;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.conteudo p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    text-align: justify;
+    margin: 0 20px;
+}
+
+footer {
+    padding: 2%;
+    font-size: 0.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4dc24;
+    color: black;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer div a {
+    font-size: 0.55rem;
+    color: black;
+}
+
+footer div a:hover{
+    color: rgba(43, 42, 42, 0.801);
+    transition: 0.9s;
+}
+    
+}
